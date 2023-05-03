@@ -1,0 +1,5 @@
+FROM alpine
+RUN fallocate -l 50000000 test 
+RUN chmod +x test 
+RUN rm test
+

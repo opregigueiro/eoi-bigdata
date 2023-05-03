@@ -1,0 +1,14 @@
+FROM alpine
+
+WORKDIR /workspace
+
+RUN fallocate -l 10000000 1
+RUN fallocate -l 10000000 2
+RUN fallocate -l 10000000 3
+RUN fallocate -l 10000000 4
+RUN fallocate -l 10000000 5
+RUN fallocate -l 10000000 six
+RUN fallocate -l 10000000 7
+RUN fallocate -l 10000000 8
+RUN fallocate -l 10000000 9
+RUN fallocate -l 10000000 10
